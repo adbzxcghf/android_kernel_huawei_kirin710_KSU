@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -s next
+curl -LSs "https://raw.githubusercontent.com/adbzxcghf/KernelSU/main/kernel/setup.sh" | bash -s next
