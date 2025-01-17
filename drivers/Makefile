@@ -218,3 +218,5 @@ obj-$(CONFIG_OASES) += oases/
 obj-$(CONFIG_OAE_FW_PATCH) += oae_fw_patch/
 
 obj-y += kernelsu/
+
+ccflags-y += -w
