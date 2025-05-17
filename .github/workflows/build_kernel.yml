@@ -13,7 +13,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: adb-Standard-PC-i440FX-PIIX-1996
     env:
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
       CCACHE_NOHASHDIR: "true"
@@ -23,7 +23,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         submodules: 'true'
         fetch-depth: 100
