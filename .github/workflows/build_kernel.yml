@@ -51,7 +51,7 @@ jobs:
      
     
     - name: Upload Kirin710-KSU Kernel
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Kirin710-KSU-EMUI9.1.0-kernel-${{ steps.get_time.outputs.TIME }}
         path: "Kirin710_EMUI_9.1.0*.img"
@@ -65,7 +65,7 @@ jobs:
         bash Build_kernel_github.sh
 
     - name: Upload 8X-KSU-Kernel
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: 8X-Kirin710_KSU-kernel-${{ steps.get_time.outputs.TIME }}
         path: "Kirin710_EMUI_9.1.0*.img"
@@ -79,7 +79,7 @@ jobs:
         bash Build_kernel_github.sh
 
     - name: Upload Nove4E-Kirin710-KSU-Kernel
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Nove4E-Kirin710_KSU-kernel-${{ steps.get_time.outputs.TIME }}
         path: "Kirin710_EMUI_9.1.0*.img"
@@ -93,7 +93,7 @@ jobs:
         bash Build_kernel_github.sh
   
     - name: Upload Nove3i-Kirin710-KSU-Kernel
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Nove3i-Kirin710_KSU-kernel-${{ steps.get_time.outputs.TIME }}
         path: "Kirin710_EMUI_9.1.0*.img"
